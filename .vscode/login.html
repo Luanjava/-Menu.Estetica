@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu-principal">
+                <li><a href="#">Início</a></li>
+                <li>
+                    <a href="#">Agendamentos</a>
+                    <ul class="submenu">
+                        <li><a href="#">Horários disponíveis</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="login-container">
+        <h2>Login Senac</h2>
+        <form>
+            <div class="input-group">
+                <label for="txtUsuario">Usuário</label>
+                <input type="text" id="txtUsuario" name="txtUsuario" placeholder="Digite seu usuário" required>
+            </div>
+            <div class="input-group">
+                <label for="txtSenha">Senha</label>
+                <input type="password" id="txtSenha" name="txtSenha" placeholder="Digite sua senha" required>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
